@@ -1,0 +1,40 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+#landing {
+	background: linear-gradient(
+	rgba(0, 34, 65, 0.50),
+	rgba(0, 34, 65, 0.50)
+	), url("https://img.freepik.com/free-photo/tall-grass-field-autumn-japan_1150-11160.jpg?t=st=1734412324~exp=1734415924~hmac=4e490aa0c5125165304b5661036b3c122f0a6d6f46bb5936f32ca345ab19a062&w=1380"); 
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+
+
+#name {
+	font-family: Garamond;
+	font-size: 68px;
+	font-weight: 700;
+	line-height: 84px;
+}
+
+#sub-name {
+	font-family: Garamond;
+	font-size: 40px;
+	font-weight: 300;
+	line-height: 84px;
+}
+
+#contact {
+	text-align: center;
+}
+
+body {
+	background-image: url(https://www.startpage.com/av/proxy-image?piurl=https%3A%2F%2Fi.pinimg.com%2Foriginals%2F66%2Fb6%2F54%2F66b6541054ad3157f88dabcce021fe02.jpg&sp=1734414846Te220acb49eb108211bccd8bc5000b25880ae7dbe90db9c94e244321ebb6d886e);
+	background-repeat: no repeat;
+	background-size: cover;
+}
