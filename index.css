@@ -1,46 +1,123 @@
 * {
-	margin: 0;
-	padding: 0;
-	box-sizing: border-box;
-
-	font-family: garamond;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Lora', serif;
 }
+
+body {
+  background: url("https://i.pinimg.com/736x/2a/01/86/2a0186f6a6b654b1c16c3b4b9866d897.jpg") no-repeat center fixed;
+  background-size: cover;
+}
+
+.navbar {
+  background-color: black;
+}
+
+.nav-link {
+  font-size: 1rem;
+  font-weight: 500;
+  padding: 0.5rem 1rem;
+}
+
+.nav-link:hover {
+  background-color: #444;
+  border-radius: 4px;
+}
+
 
 #landing {
-	background: linear-gradient(
-	rgba(0, 34, 65, 0.50),
-	rgba(0, 34, 65, 0.50)
-	), url("https://img.freepik.com/free-photo/tall-grass-field-autumn-japan_1150-11160.jpg?t=st=1734412324~exp=1734415924~hmac=4e490aa0c5125165304b5661036b3c122f0a6d6f46bb5936f32ca345ab19a062&w=1380"); 
-	background-repeat: no-repeat;
-	background-size: cover;
-	height: 92vh;
+  background: url("https://i.pinimg.com/736x/36/a2/df/36a2df68c2479a1f23a50ada221e4f72.jpg") no-repeat center fixed;
+  background-size: cover;
+  min-height: 92vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
 }
 
+#profile {
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+  border: 5px solid white;
+  border-radius: 50%;
+}
 
 #name {
-	font-size: 68px;
-	font-weight: 700;
-	line-height: 84px;
+  font-size: 2.8rem;
+  font-weight: bold;
 }
 
 #sub-name {
-	font-size: 40px;
-	font-weight: 300;
-	line-height: 84px;
+  font-size: 1.5rem;
+  color: #f8f9fa;
 }
 
+#landing h5 {
+  font-size: 1rem;
+  max-width: 700px;
+  margin-top: 15px;
+  color: #dcdcdc;
+}
+
+#projects {
+  background-color: #f8f9fa;
+  padding: 2rem 0;
+}
+
+.project-card {
+  background-color: #6c757d;
+  color: white;
+  border-radius: 8px;
+  transition: transform 0.2s;
+}
+
+.project-card:hover {
+  transform: translateY(-5px);
+}
+
+.project-card img {
+  max-height: 300px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+#tools img {
+  width: 80px;
+  height: auto;
+  border: 2px solid #ddd;
+  border-radius: 8px;
+  padding: 5px;
+}
 
 #contact {
-	text-align: center;
+      display: flex;
+      align-items: center;
+      justify-content: center;  
 }
 
-/*body {
-	background-image: url(https://www.startpage.com/av/proxy-image?piurl=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIF.nDwF1VMPW0yBq2KXpJhZ4Q%26pid%3DApi&sp=1734428565T44345b7e6ffb834311c543d0aac1243cc7f32dfbbf88a18d11a9598068411a9d);
-	background-repeat: no repeat;
-	background-size: cover;
-}*/
-
-body {
-	background-color: lightgray;
+#contact a img {
+  width: 40px;
+  margin: 10px;
+  transition: transform 0.2s;
 }
 
+#contact a img:hover {
+  transform: scale(1.2);
+}
+
+#contact form {
+  background: #f8f9fa;
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.1);
+}
+
+#footer {
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 1rem 0;
+}
