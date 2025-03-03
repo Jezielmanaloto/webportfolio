@@ -5,11 +5,6 @@
   font-family: 'Lora', serif;
 }
 
-body {
-  background: url("https://i.pinimg.com/736x/2a/01/86/2a0186f6a6b654b1c16c3b4b9866d897.jpg") no-repeat center fixed;
-  background-size: cover;
-}
-
 .navbar {
   background-color: black;
 }
@@ -115,6 +110,18 @@ body {
   box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.1);
 }
 
+.contact-icon {
+        width: 30px; 
+        height: 40px; 
+        object-fit: cover;
+    }
+
+.project-card img {
+        width: 100%; /* Make images fill the card width */
+        height: 300px; /* Set a fixed height */
+        object-fit: cover; /* Ensure images cover the area without distortion */
+        border-radius: 8px; /* Optional: Adds rounded corners */
+    }
 #footer {
   background-color: black;
   color: white;
